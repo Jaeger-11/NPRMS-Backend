@@ -39,6 +39,18 @@ const IdentitySchema = new mongoose.Schema({
     height: {
         type: String
     },
+    eyeColor:{
+        type: String
+    },
+    hairColor:{
+        type: String
+    },
+    personalMailAddress:{
+        type: String
+    },
+    phoneNumber: {
+        type: String
+    },
     DOB: {
         type: Date,
         required: true
