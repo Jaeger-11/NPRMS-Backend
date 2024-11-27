@@ -1,5 +1,4 @@
 const Identity = require('../models/Identity');
-const fs = require('fs')
 const datafile = require('../identityDataV2.json')
 
 const createNewIdentity = async (req, res) => {
